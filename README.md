@@ -74,6 +74,6 @@
 ---
 
  
-![Snake animation dark](https://github.com/AZAGAND/ZaganJade/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Snake animation light](https://github.com/AZAGAND/ZaganJade/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![Snake animation dark](https://github.com/ZaganJade/ZaganJade/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![Snake animation light](https://github.com/ZaganJade/ZaganJade/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
