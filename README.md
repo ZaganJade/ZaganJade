@@ -217,7 +217,7 @@ const zagan = {
       <h3 align="center">🌌 Cinematic Portfolio</h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/portofolio">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=portofolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ZaganJade&repo=portofolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
         </a>
       </p>
       <p align="center">
@@ -238,7 +238,7 @@ const zagan = {
       <h3 align="center">🚨 ResQ — Disaster Response <sub>(Hackathon)</sub></h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/Hackathon-ResQ">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Hackathon-ResQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ZaganJade&repo=Hackathon-ResQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
         </a>
       </p>
       <p align="center">
@@ -261,7 +261,7 @@ const zagan = {
       <h3 align="center">🎫 E-Ticketing Helpdesk <sub>(Mobile + API)</sub></h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/E-Ticketing_Helpdesk-MobileApp">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=E-Ticketing_Helpdesk-MobileApp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ZaganJade&repo=E-Ticketing_Helpdesk-MobileApp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
         </a>
       </p>
       <p align="center">
@@ -282,7 +282,7 @@ const zagan = {
       <h3 align="center">🛒 Workshop Laravel — E-Commerce</h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/Workshop-Laravel">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Workshop-Laravel&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ZaganJade&repo=Workshop-Laravel&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
         </a>
       </p>
       <p align="center">
@@ -342,8 +342,8 @@ learning:
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.gif" width="26"/> &nbsp;GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ZaganJade&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaganJade&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" />
+  <img height="165" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ZaganJade&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" />
+  <img height="165" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=ZaganJade&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" />
 </p>
 
 <p align="center">
