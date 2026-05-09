@@ -235,59 +235,78 @@ const zagan = {
       </sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🐾 RSHP — Veterinary Clinic</h3>
+      <h3 align="center">🚨 ResQ — Disaster Response <sub>(Hackathon)</sub></h3>
       <p align="center">
-        <a href="https://github.com/ZaganJade/College_Project">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=College_Project&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+        <a href="https://github.com/ZaganJade/Hackathon-ResQ">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Hackathon-ResQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
         </a>
       </p>
       <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
       </p>
       <p align="center"><sub>
-        Multi-role clinic management with <b>5 dashboards</b><br/>
-        (Admin · Dokter · Perawat · Resepsionis · Pemilik).<br/>
-        Native PHP + MySQL — patient records, appointments, billing.
+        Disaster-response platform with a <b>Python BMKG scraper</b><br/>
+        feeding a <b>Laravel 12</b> app. Deployed via <b>Docker + K8s</b><br/>
+        CronJobs. Built during a 48-hour hackathon.
       </sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛒 Web Marketplace (PBD)</h3>
+      <h3 align="center">🎫 E-Ticketing Helpdesk <sub>(Mobile + API)</sub></h3>
       <p align="center">
-        <a href="https://github.com/ZaganJade/Project-PBD">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Project-PBD&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+        <a href="https://github.com/ZaganJade/E-Ticketing_Helpdesk-MobileApp">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=E-Ticketing_Helpdesk-MobileApp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+        </a>
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+        <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
+      </p>
+      <p align="center"><sub>
+        Full-stack ticketing system: <b>Flutter</b> client (Bloc · GoRouter ·<br/>
+        shadcn_ui · Supabase) + <b>Go + Gin</b> API in <b>Clean Architecture</b><br/>
+        with JWT auth and Google Wire DI.
+      </sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🛒 Workshop Laravel — E-Commerce</h3>
+      <p align="center">
+        <a href="https://github.com/ZaganJade/Workshop-Laravel">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Workshop-Laravel&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
         </a>
       </p>
       <p align="center">
         <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Livewire_3-4E56A6?style=flat-square&logo=livewire&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Midtrans-008ECC?style=flat-square&logo=stripe&logoColor=white"/>
         <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Vite_6-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+        <img src="https://img.shields.io/badge/DomPDF-CB3837?style=flat-square&logo=adobeacrobatreader&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white"/>
       </p>
       <p align="center"><sub>
-        Livewire-powered ERP / marketplace with <b>Master</b><br/>
-        (barang · satuan · vendor · user · role) &amp; <b>Transaction</b> modules.<br/>
-        Built on the Laravel Livewire Starter Kit (Volt + Flux UI).
-      </sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">➕ More on GitHub</h3>
-      <br/>
-      <p align="center">
-        <a href="https://github.com/ZaganJade?tab=repositories">
-          <img src="https://img.shields.io/badge/Browse%20all%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="all repos"/>
-        </a>
-      </p>
-      <p align="center"><sub>
-        Experiments with AI wrappers, MCP servers, Flutter widgets,<br/>
-        and the occasional weekend hack. Always open for collab.
+        Production-style workshop project — <b>Laravel 12</b> storefront<br/>
+        with <b>Midtrans</b> payments, <b>Socialite</b> OAuth,<br/>
+        and <b>DomPDF</b> invoice generation.
       </sub></p>
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <a href="https://github.com/ZaganJade?tab=repositories">
+    <img src="https://img.shields.io/badge/%E2%9E%9E%20See%20all%20my%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="all repos"/>
+  </a>
+</p>
 
 ---
 
