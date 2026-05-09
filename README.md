@@ -9,7 +9,7 @@
 <!--                         TYPING                            -->
 <!-- ========================================================= -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=820&lines=Hi+there%2C+I'm+Muhammad+Ikhsanudin+Arsalan+%F0%9F%91%8B;Crafting+cinematic+web+%26+mobile+experiences;Next.js+%E2%80%A2+React+%E2%80%A2+Laravel+%E2%80%A2+Flutter+%E2%80%A2+AI;From+database+schema+to+pixel-perfect+UI;Open-source+enthusiast+%E2%80%A2+Always+shipping." alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=860&lines=Hi+there%2C+I'm+Muhammad+Ikhsanudin+Arsalan+%F0%9F%91%8B;Fullstack+Developer+%E2%9A%A1+AI+%26+LLM+Enthusiast;Frontend+%E2%86%92+React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Tailwind;Backend+%E2%86%92+Laravel+%E2%80%A2+Node.js+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+PostgreSQL;Building+LLM-powered+tools+with+Gemini%2C+Claude+%26+OpenAI;Always+learning.+Always+shipping." alt="typing"/>
 </p>
 
 <!-- ========================================================= -->
@@ -48,20 +48,25 @@
 const zagan = {
   name      : "Muhammad Ikhsanudin Arsalan",
   alias     : "Zagan Jade",
-  role      : "Developer — Scholar @ Universitas Airlangga",
+  role      : "Fullstack Developer  |  AI & LLM Enthusiast",
   location  : "Indonesia 🇮🇩",
-  frontend  : ["Next.js", "React", "TypeScript", "Tailwind", "Framer Motion"],
-  backend   : ["Laravel", "Node.js", "Go", "Python", "PostgreSQL", "MySQL"],
-  mobile    : ["Flutter", "Dart"],
-  ai        : ["OpenRouter", "Gemini", "Claude", "OpenAI", "MCP", "Embeddings"],
+  frontend  : ["TypeScript", "React", "Next.js", "Vue", "Laravel",
+               "Inertia.js", "Livewire", "Alpine.js", "Filament",
+               "Flutter", "Tailwind CSS", "Three.js", "GSAP"],
+  backend   : ["Laravel", "Node.js", "Go", "Python",
+               "PostgreSQL", "MySQL", "Supabase", "Firebase", "Redis"],
+  ai        : ["Gemini", "Claude", "OpenAI", "OpenRouter",
+               "MCP Protocol", "Prompt Engineering", "Vector Embeddings"],
   building  : ["Cinematic portfolio (Next 15 + R3F)", "RSHP Vet Clinic", "PBD Marketplace"],
   fuel      : "coffee ☕ + lofi 🎵 + midnight 🌙",
 };
 ```
 
-> I love turning messy requirements into clean, role-aware systems —
-> from **database schema → backend logic → pixel-perfect UI**,
-> with a growing focus on **AI integration & LLM-powered tooling**.
+> 🧑‍💻 **Fullstack by trade, AI-curious by obsession.**
+> I build end-to-end web products — from **database schema → API → pixel-perfect UI** —
+> and I'm deeply enthusiastic about **AI / LLM-based tooling**: wrapping models,
+> engineering prompts, wiring up MCP servers, and shipping real features with
+> Gemini, Claude, and OpenAI. If it talks to an LLM, I probably want to build it.
 
 ---
 
@@ -107,7 +112,12 @@ const zagan = {
 <!-- ========================================================= -->
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6e0_fe0f/512.gif" width="26"/> &nbsp;Tech Stack
 
-<sub><i>Mirrored from <a href="https://ikhsan.vibedev.web.id">ikhsan.vibedev.web.id</a> — the same 5 categories my portfolio uses.</i></sub>
+<p align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%20Role-Fullstack%20Developer-0ea5e9?style=for-the-badge&labelColor=0D1117" alt="fullstack"/>
+  <img src="https://img.shields.io/badge/%F0%9F%A4%96%20Enthusiast-AI%20%26%20LLM%20Based%20Tooling-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="AI enthusiast"/>
+</p>
+
+<sub><i>Mirrored from <a href="https://ikhsan.vibedev.web.id">ikhsan.vibedev.web.id</a> — same 5 categories my portfolio uses.</i></sub>
 
 <div align="center">
 
@@ -126,10 +136,10 @@ const zagan = {
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
 </p>
 
 ### 🤖 AI & LLMs
+<sub><i>My biggest playground — wrapping models, engineering prompts, and wiring up MCP servers.</i></sub>
 <p>
   <img src="https://img.shields.io/badge/AI_Integration-6366F1?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Generative_AI-8B5CF6?style=for-the-badge&logo=openai&logoColor=white"/>
@@ -291,16 +301,18 @@ now:
   - 🌌  Polishing the cinematic portfolio (3D hero + scroll choreography)
   - 🏥  Shipping role-based modules for the RSHP vet system
   - 🛒  Iterating on the PBD Laravel + Livewire marketplace
+  - 🤖  Prototyping LLM-powered features with Gemini & Claude
 
 next:
-  - 🤖  Deeper AI tooling: MCP servers, prompt chains, vector embeddings
+  - 🧠  Deeper AI tooling: MCP servers, prompt chains, vector embeddings
   - 🔐  RBAC + policy patterns in Laravel 12
   - ☁️   CI/CD for Laravel & Next.js on VPS (Nginx + GH Actions)
+  - 🧪  RAG pipelines over my own notes & docs
 
 learning:
   - 📚  Database indexing & query optimization
   - 🎯  HCI / UX for data-heavy interfaces
-  - 🧪  Pest / PHPUnit for real-world Laravel testing
+  - 🧬  Fine-tuning & evals for small open-source LLMs
 ```
 
 ---
