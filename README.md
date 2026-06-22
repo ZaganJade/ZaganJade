@@ -350,8 +350,16 @@ learning:
   <img src="https://streak-stats.demolab.com?user=ZaganJade&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" alt="streak stats"/>
 </p>
 
+<!-- Achievement badges (shields.io — github-profile-trophy.vercel.app sering kena rate-limit GitHub API) -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ZaganJade&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies"/>
+  <a href="https://github.com/ZaganJade?tab=repositories">
+    <img src="https://img.shields.io/badge/%F0%9F%8F%86%20Open%20Source-Contributor-FBBF24?style=for-the-badge&labelColor=0D1117" alt="open source"/>
+  </a>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20Full--Stack-Developer-38BDF8?style=for-the-badge&labelColor=0D1117" alt="fullstack"/>
+  <img src="https://img.shields.io/badge/%F0%9F%A4%96%20AI%20%2F%20LLM-Enthusiast-8B5CF6?style=for-the-badge&labelColor=0D1117" alt="ai"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Product-Shipper-22C55E?style=for-the-badge&labelColor=0D1117" alt="shipper"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8C%99%20Night-Coder-EC4899?style=for-the-badge&labelColor=0D1117" alt="night coder"/>
+  <img src="https://img.shields.io/badge/%E2%98%95%20Coffee-Powered-D97757?style=for-the-badge&labelColor=0D1117" alt="coffee"/>
 </p>
 
 <p align="center">
