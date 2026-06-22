@@ -342,7 +342,7 @@ learning:
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.gif" width="26"/> &nbsp;GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ZaganJade&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="github stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ZaganJade&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="github stats"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaganJade&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="top langs"/>
 </p>
 
