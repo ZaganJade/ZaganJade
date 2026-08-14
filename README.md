@@ -405,7 +405,7 @@ learning:
 </p>
 
 <p align="center">
-  <sub>💬 Open for collaboration, freelance, and open-source — ping me any time.</sub>
+  <sub>💬 Open for collaboration, freelance, and open-source project — ping me any time.</sub>
 </p>
 
 ---
