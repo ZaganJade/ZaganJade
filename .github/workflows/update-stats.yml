@@ -1,0 +1,76 @@
+name: Update README Assets
+
+# Auto-refresh all cached dynamic SVGs (stats, streak, pins, graph, quote).
+# Fallback chain per asset: official instance -> mirror -> keep old version.
+# README renders the cached files, so it stays up even when public instances
+# are rate-limited (github-readme-stats.vercel.app frequently returns 503).
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # every 30 minutes
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/**" # bot commits must not re-trigger this workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme-assets
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch assets
+        run: |
+          chmod +x scripts/fetch-asset.sh
+          GRS_THEME="theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9"
+          OFFICIAL="https://github-readme-stats.vercel.app/api"
+          MIRROR="https://github-readme-stats-eight-theta.vercel.app/api"
+          PIN_OFFICIAL="$OFFICIAL/pin/?username=ZaganJade"
+          PIN_MIRROR="$MIRROR/pin/?username=ZaganJade"
+
+          scripts/fetch-asset.sh assets/github-stats.svg \
+            "$OFFICIAL?username=ZaganJade&show_icons=true&count_private=true&$GRS_THEME&rank_icon=github" \
+            "$MIRROR?username=ZaganJade&show_icons=true&count_private=true&$GRS_THEME&rank_icon=github" &
+
+          scripts/fetch-asset.sh assets/top-langs.svg \
+            "$OFFICIAL/top-langs/?username=ZaganJade&layout=compact&langs_count=10&$GRS_THEME" \
+            "$MIRROR/top-langs/?username=ZaganJade&layout=compact&langs_count=10&$GRS_THEME" &
+
+          scripts/fetch-asset.sh assets/streak.svg \
+            "https://streak-stats.demolab.com?user=ZaganJade&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" &
+
+          scripts/fetch-asset.sh assets/activity-graph.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=ZaganJade&theme=tokyo-night&bg_color=0D1117&hide_border=true&color=38BDF8&line=8B5CF6&point=FBBF24" &
+
+          scripts/fetch-asset.sh assets/quote.svg \
+            "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" &
+
+          scripts/fetch-asset.sh assets/pin-portofolio.svg "$PIN_OFFICIAL&repo=portofolio&$GRS_THEME" "$PIN_MIRROR&repo=portofolio&$GRS_THEME" &
+          scripts/fetch-asset.sh assets/pin-hackathon-resq.svg "$PIN_OFFICIAL&repo=Hackathon-ResQ&$GRS_THEME" "$PIN_MIRROR&repo=Hackathon-ResQ&$GRS_THEME" &
+          scripts/fetch-asset.sh assets/pin-eticketing.svg "$PIN_OFFICIAL&repo=E-Ticketing_Helpdesk-MobileApp&$GRS_THEME" "$PIN_MIRROR&repo=E-Ticketing_Helpdesk-MobileApp&$GRS_THEME" &
+          scripts/fetch-asset.sh assets/pin-workshop-laravel.svg "$PIN_OFFICIAL&repo=Workshop-Laravel&$GRS_THEME" "$PIN_MIRROR&repo=Workshop-Laravel&$GRS_THEME" &
+          wait
+
+          # Fail loudly only when an asset has no cached copy at all
+          for f in assets/*.svg; do [ -s "$f" ] || { echo "::error::$f is empty/missing"; exit 1; }; done
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then
+            echo "No asset changes."
+            exit 0
+          fi
+          git commit -m "chore: auto-update readme assets [skip ci]"
+          git push

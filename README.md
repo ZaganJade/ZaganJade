@@ -217,7 +217,7 @@ const zagan = {
       <h3 align="center">🌌 Cinematic Portfolio</h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/portofolio">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=portofolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="assets/pin-portofolio.svg" />
         </a>
       </p>
       <p align="center">
@@ -238,7 +238,7 @@ const zagan = {
       <h3 align="center">🚨 ResQ — Disaster Response <sub>(Hackathon)</sub></h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/Hackathon-ResQ">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Hackathon-ResQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="assets/pin-hackathon-resq.svg" />
         </a>
       </p>
       <p align="center">
@@ -261,7 +261,7 @@ const zagan = {
       <h3 align="center">🎫 E-Ticketing Helpdesk <sub>(Mobile + API)</sub></h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/E-Ticketing_Helpdesk-MobileApp">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=E-Ticketing_Helpdesk-MobileApp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="assets/pin-eticketing.svg" />
         </a>
       </p>
       <p align="center">
@@ -282,7 +282,7 @@ const zagan = {
       <h3 align="center">🛒 Workshop Laravel — E-Commerce</h3>
       <p align="center">
         <a href="https://github.com/ZaganJade/Workshop-Laravel">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=ZaganJade&repo=Workshop-Laravel&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9" />
+          <img src="assets/pin-workshop-laravel.svg" />
         </a>
       </p>
       <p align="center">
@@ -341,13 +341,15 @@ learning:
 <!-- ========================================================= -->
 ## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ca/512.gif" width="26"/> &nbsp;GitHub Stats
 
+<!-- Cached SVGs — auto-refreshed by .github/workflows/update-stats.yml every 30 min.
+     (retry + mirror fallback + keep-old so the cards never go down) -->
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ZaganJade&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="github stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZaganJade&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="top langs"/>
+  <img height="165" src="assets/github-stats.svg" alt="github stats"/>
+  <img height="165" src="assets/top-langs.svg" alt="top langs"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ZaganJade&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" alt="streak stats"/>
+  <img src="assets/streak.svg" alt="streak stats"/>
 </p>
 
 <!-- Achievement badges (shields.io — github-profile-trophy.vercel.app sering kena rate-limit GitHub API) -->
@@ -363,7 +365,7 @@ learning:
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZaganJade&theme=tokyo-night&bg_color=0D1117&hide_border=true&color=38BDF8&line=8B5CF6&point=FBBF24" width="95%" alt="activity graph"/>
+  <img src="assets/activity-graph.svg" width="95%" alt="activity graph"/>
 </p>
 
 ---
@@ -414,7 +416,7 @@ learning:
 <!--                    QUOTE + FOOTER                         -->
 <!-- ========================================================= -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="random dev quote"/>
+  <img src="assets/quote.svg" alt="random dev quote"/>
 </p>
 
 <p align="center">
