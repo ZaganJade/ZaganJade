@@ -57,7 +57,7 @@ const zagan = {
                "PostgreSQL", "MySQL", "Supabase", "Firebase", "Redis"],
   ai        : ["Gemini", "Claude", "OpenAI", "OpenRouter",
                "MCP Protocol", "Prompt Engineering", "Vector Embeddings"],
-  building  : ["Cinematic portfolio (Next 15 + R3F)", "RSHP Vet Clinic", "PBD Marketplace"],
+  building  : ["Hermes Panel (VPS control panel)", "JadeNode (cloud marketplace)", "PR Warden (AI review agents)"],
   fuel      : "coffee ☕ + lofi 🎵 + midnight 🌙",
 };
 ```
@@ -317,21 +317,20 @@ const zagan = {
 
 ```yaml
 now:
-  - 🌌  Polishing the cinematic portfolio (3D hero + scroll choreography)
-  - 🏥  Shipping role-based modules for the RSHP vet system
-  - 🛒  Iterating on the PBD Laravel + Livewire marketplace
-  - 🤖  Prototyping LLM-powered features with Gemini & Claude
+  - 🖥️  Building Hermes Panel — self-hosted VPS control panel for Laravel projects
+  - 🛒  Shipping JadeNode — cloud infrastructure marketplace (Next.js + Laravel 12)
+  - 🤖  Maintaining PR Warden — AI agent stack that auto-reviews pull requests
 
 next:
-  - 🧠  Deeper AI tooling: MCP servers, prompt chains, vector embeddings
-  - 🔐  RBAC + policy patterns in Laravel 12
-  - ☁️   CI/CD for Laravel & Next.js on VPS (Nginx + GH Actions)
-  - 🧪  RAG pipelines over my own notes & docs
+  - 🦫  Ship Go services — rewrite hot paths in Golang for scalable, concurrent backends
+  - 🗄️  Explore new databases — Postgres internals, vector stores, real-time engines
+  - 🧠  Go deep on AI Engineering — agents, MCP servers, RAG pipelines, evals
 
 learning:
-  - 📚  Database indexing & query optimization
-  - 🎯  HCI / UX for data-heavy interfaces
-  - 🧬  Fine-tuning & evals for small open-source LLMs
+  - 🐹  Golang — for shipping scalable apps (Gin, gRPC, Clean Architecture)
+  - 🗃️  New databases — beyond MySQL/Postgres: Redis deep-dive, vectors, time-series
+  - 🤖  AI Engineering — LLM tooling, agent orchestration, prompt systems
+  - ⚡  Backend patterns for scale — queues, caching, observability
 ```
 
 ---
