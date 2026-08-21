@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>There is an amazing commonality in the types of difficulties you run into. In design reviews, I really enjoy being able to provide advice, based on programs that I have done.</h3>
-          <p>- Bill Gates</p>
+          <h3>Putting a new feature into a program is important, but refactoring so new features can be added in the future is equally important.</h3>
+          <p>- Ward Cunningham</p>
         </div>
       </div>
     </foreignObject>
