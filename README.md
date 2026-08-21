@@ -57,7 +57,7 @@ const zagan = {
                "PostgreSQL", "MySQL", "Supabase", "Firebase", "Redis"],
   ai        : ["Gemini", "Claude", "OpenAI", "OpenRouter",
                "MCP Protocol", "Prompt Engineering", "Vector Embeddings"],
-  building  : ["Hermes Panel (VPS control panel)", "JadeNode (cloud marketplace)", "PR Warden (AI review agents)"],
+  building  : ["ZaganRouter (AI gateway SaaS)", "Hermes Panel (VPS control panel)", "JadeNode (cloud marketplace)"],
   fuel      : "coffee ☕ + lofi 🎵 + midnight 🌙",
 };
 ```
@@ -317,19 +317,21 @@ const zagan = {
 
 ```yaml
 now:
+  - 🔀  Building ZaganRouter — OpenAI-compatible AI gateway & SaaS
+         Fastify data plane · NestJS control plane · Next.js dashboard
+         one endpoint, every model — AI Credit metering + per-key quota
   - 🖥️  Building Hermes Panel — self-hosted VPS control panel for Laravel projects
   - 🛒  Shipping JadeNode — cloud infrastructure marketplace (Next.js + Laravel 12)
-  - 🤖  Maintaining PR Warden — AI agent stack that auto-reviews pull requests
 
 next:
-  - 🦫  Ship Go services — rewrite hot paths in Golang for scalable, concurrent backends
+  - 🦫  Go data plane — rewrite hot routing paths in Golang for max throughput at scale
   - 🗄️  Explore new databases — Postgres internals, vector stores, real-time engines
-  - 🧠  Go deep on AI Engineering — agents, MCP servers, RAG pipelines, evals
+  - 🧠  Go deep on AI Engineering — agent orchestration, evals, usage metering
 
 learning:
   - 🐹  Golang — for shipping scalable apps (Gin, gRPC, Clean Architecture)
   - 🗃️  New databases — beyond MySQL/Postgres: Redis deep-dive, vectors, time-series
-  - 🤖  AI Engineering — LLM tooling, agent orchestration, prompt systems
+  - 🤖  AI Engineering — LLM gateway patterns, token metering, RAG, evals
   - ⚡  Backend patterns for scale — queues, caching, observability
 ```
 
