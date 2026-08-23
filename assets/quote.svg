@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>The real problem with throwaway code comes when it isn't thrown away.</h3>
-          <p>- Joseph Yoder (computer scientist)</p>
+          <h3>Often designers do complicated things that improve the capacity on a particular hardware platform when it might actually be cheaper to buy more hardware.</h3>
+          <p>- Martin Fowler</p>
         </div>
       </div>
     </foreignObject>
