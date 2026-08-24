@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Good architecture is necessary to give programs enough structure to be able to grow large without collapsing into a puddle of confusion.</h3>
-          <p>- Douglas Crockford</p>
+          <h3>Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.</h3>
+          <p>- Stan Kelly-Bootle</p>
         </div>
       </div>
     </foreignObject>
