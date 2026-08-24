@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Managing a large project is a qualitatively different problem from managing a small one, just as leading a division of infantry into battle is different from commanding a small special forces team.</h3>
-          <p>- Joseph Yoder (computer scientist)</p>
+          <h3>Good architecture is necessary to give programs enough structure to be able to grow large without collapsing into a puddle of confusion.</h3>
+          <p>- Douglas Crockford</p>
         </div>
       </div>
     </foreignObject>
