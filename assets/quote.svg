@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Software is usually expected to be modified over the course of its productive life. The process of converting one correct program into a different correct program is extremely challenging.</h3>
-          <p>- Douglas Crockford</p>
+          <h3>I’ll throw away code as soon I want to add something to it and I get the feeling that what I have to do to add it is too hard.</h3>
+          <p>- Ken Thompson</p>
         </div>
       </div>
     </foreignObject>
