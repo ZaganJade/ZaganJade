@@ -12,9 +12,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=860&lines=Hi+there%2C+I'm+Muhammad+Ikhsanudin+Arsalan+%F0%9F%91%8B;Fullstack+Developer+%E2%9A%A1+AI+%26+LLM+Enthusiast;Frontend+%E2%86%92+React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Tailwind;Backend+%E2%86%92+Laravel+%E2%80%A2+Node.js+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+PostgreSQL;Building+LLM-powered+tools+with+Gemini%2C+Claude+%26+OpenAI;Always+learning.+Always+shipping." alt="typing"/>
 </p>
 
-<!-- ========================================================= -->
-<!--                      QUICK BADGES                         -->
-<!-- ========================================================= -->
+<!-- ========================================================= --->
+<!--                      QUICK BADGES                         --->
+<!-- ========================================================= --->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ZaganJade&label=PROFILE+VIEWS&color=38BDF8&style=for-the-badge" alt="views"/>
   <a href="https://github.com/ZaganJade?tab=followers">
