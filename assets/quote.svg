@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Size almost always involves complexity, and complexity confuses programmers. Confused programmers, in turn, introduce mistakes (bugs) into programs.</h3>
-          <p>- Marijn Haverbeke</p>
+          <h3>I’ll throw away code as soon I want to add something to it and I get the feeling that what I have to do to add it is too hard.</h3>
+          <p>- Ken Thompson</p>
         </div>
       </div>
     </foreignObject>
