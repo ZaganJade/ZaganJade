@@ -46,7 +46,7 @@ jobs:
             "$MIRROR/top-langs/?username=ZaganJade&layout=compact&langs_count=10&$GRS_THEME" &
 
           scripts/fetch-asset.sh assets/streak.svg \
-            "https://streak-stats.demolab.com?user=ZaganJade&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" &
+            "https://streak-stats.demolab.com?user=ZaganJade&timezone=Asia%2FJakarta&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" &
 
           scripts/fetch-asset.sh assets/activity-graph.svg \
             "https://github-readme-activity-graph.vercel.app/graph?username=ZaganJade&theme=tokyo-night&bg_color=0D1117&hide_border=true&color=38BDF8&line=8B5CF6&point=FBBF24" &
