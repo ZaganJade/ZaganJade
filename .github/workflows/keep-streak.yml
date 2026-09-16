@@ -1,0 +1,36 @@
+name: Keep Streak
+
+# Streak insurance: 1 commit/hari atas nama pemilik akun (bukan bot),
+# jadi contribution graph selalu hijau walau hari itu cuma ngerjain fork.
+# Butuh secret STREAK_PAT (fine-grained PAT, scope: Contents RW repo ini).
+
+on:
+  schedule:
+    - cron: "17 5,17 * * *" # 2x/hari: 12:17 & 00:17 WIB, redundansi kalau ada run yang kelewat
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keep-streak
+  cancel-in-progress: false
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.STREAK_PAT }} # PAT = commit dihitung sebagai milik ZaganJade
+          fetch-depth: 0
+
+      - name: Heartbeat commit
+        run: |
+          git config user.name "Muhammad Ikhsanudin Arsalan"
+          git config user.email "95089162+ZaganJade@users.noreply.github.com"
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > assets/heartbeat.txt
+          git add assets/heartbeat.txt
+          git commit -m "chore: streak heartbeat [skip ci]"
+          git pull --rebase origin main # hindari race dengan workflow update-stats (jalan tiap 30mnt)
+          git push
