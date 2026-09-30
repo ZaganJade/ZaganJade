@@ -5,12 +5,20 @@
         viewBox="0 0 400 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
       >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
             fill: #38BDF8;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
           }
           
     .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9 }
@@ -21,9 +29,28 @@
   
 
           
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
-        undefined
+        
 
         <rect
           data-testid="card-bg"
@@ -31,10 +58,10 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#E4E2E2"
+          stroke="#e4e2e2"
           width="399"
           fill="#0D1117"
-          stroke-opacity="1"
+          stroke-opacity="0"
         />
 
         
@@ -76,20 +103,13 @@
       <tspan dy="1.2em" x="25">My Portofolio</tspan>
     </text>
 
-    <g transform="translate(0, 45)">
-      
-    <g data-testid="primary-lang" transform="translate(30, 0)">
+    <g transform="translate(30, 45)">
+      <g transform="translate(0, 0)">
+    <g data-testid="primary-lang">
       <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
       <text data-testid="lang-name" class="gray" x="15">TypeScript</text>
     </g>
-    
-
-      <g
-        data-testid="star-fork-group" 
-        transform="translate(125, 0)"
-      >
-        
-      </g>
+    </g>
     </g>
   
         </g>
