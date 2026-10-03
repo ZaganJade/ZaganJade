@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build and test, it introduces security challenges and it causes end-user and administrator frustration.</h3>
-          <p>- Ray Ozzie</p>
+          <h3>Often designers do complicated things that improve the capacity on a particular hardware platform when it might actually be cheaper to buy more hardware.</h3>
+          <p>- Martin Fowler</p>
         </div>
       </div>
     </foreignObject>
