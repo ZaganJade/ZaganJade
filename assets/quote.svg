@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.</h3>
-          <p>- Pete Cordell</p>
+          <h3>Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.</h3>
+          <p>- Stan Kelly-Bootle</p>
         </div>
       </div>
     </foreignObject>
