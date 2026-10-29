@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>If debugging is the process of removing software bugs, then programming must be the process of putting them in.</h3>
-          <p>- Edsger W. Dijkstra</p>
+          <h3>The key to keeping software costs down is to write code that is easily modified.</h3>
+          <p>- Daniel T. Barry</p>
         </div>
       </div>
     </foreignObject>
