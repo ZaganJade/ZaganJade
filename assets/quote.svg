@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>With testing, I know straight away when I added a bug. That lets me fix the bug immediately, before it can crawl off and hide.</h3>
-          <p>- Martin Fowler</p>
+          <h3>If you think it's simple, then you have misunderstood the problem.</h3>
+          <p>- Bjarne Stroustrup</p>
         </div>
       </div>
     </foreignObject>
