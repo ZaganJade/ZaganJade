@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Like a financial debt, the technical debt incurs interest payments, which come in the form of the extra effort that we have to do in future development because of the quick and dirty design choice.</h3>
-          <p>- Martin Fowler</p>
+          <h3>A programming systems product takes about nine times as much effort as the component programs written separately for private use.</h3>
+          <p>- Fred Brooks</p>
         </div>
       </div>
     </foreignObject>
