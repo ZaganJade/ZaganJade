@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Testing can be a very effective way to show the presence of bugs, but it is hopelessly inadequate for showing their absence.</h3>
-          <p>- Edsger W. Dijkstra</p>
+          <h3>W​henever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent.</h3>
+          <p>- Martin Fowler</p>
         </div>
       </div>
     </foreignObject>
